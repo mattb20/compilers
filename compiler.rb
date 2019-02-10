@@ -11,7 +11,6 @@ class Tokenizer
       TOKEN_TYPES.each do |type, re|
         end
     end
-
     raise RuntimeError.new("Couldn't match token on #{{@code.inspect}}")
   end
 end
